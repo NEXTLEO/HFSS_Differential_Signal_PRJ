@@ -1,0 +1,973 @@
+unencryptedASC 
+begin_mesh_data 
+fileformat= ng01 Major= 3 Minor= 0 Point= 2 
+comment No Comment 
+mesh_name defn_Setup1 
+Stitching_status -2 
+Meshing_status -1 
+PullPtsToTrueSurfFlag 0 
+user_unit_name mils 
+user_units_per_one_meter 3.93700787401575e+004 
+distance_tol 2.54000000000000e-013 
+non_dim_tol 1.00000000000000e-010 
+bbox_xmin -1.27000000000000e-004 
+bbox_ymin -2.79400000000000e-003 
+bbox_zmin -4.95300000000000e-004 
+bbox_xmax 2.66700000000000e-003 
+bbox_ymax 2.79400000000000e-003 
+bbox_zmax 4.95300000000000e-004 
+nbodies 6 
+nfacets 24 
+npoints 91 
+n_surf_elems 182 
+n_vol_elems 430 
+MeshSizeQualityBalance -1 
+begin_body_data 
+body_id 6 body_name Trace1 num_shells 0 sheet_body_flag 0 nfaces_on_body 6 nvelems_on_body 28 MeshSizeQualityBalance 1511106792 
+face_ids  7  8  9  10  11  12 
+bbox_xmin 0.00000000000000e+000 
+bbox_ymin 2.28600000000000e-004 
+bbox_zmin -8.89000000000000e-006 
+bbox_xmax 2.54000000000000e-003 
+bbox_ymax 3.81000000000000e-004 
+bbox_zmax 8.89000000000000e-006 
+body_id 35 body_name Trace2 num_shells 0 sheet_body_flag 0 nfaces_on_body 6 nvelems_on_body 28 MeshSizeQualityBalance -1116975808 
+face_ids  36  37  38  39  40  41 
+bbox_xmin 0.00000000000000e+000 
+bbox_ymin -3.81000000000000e-004 
+bbox_zmin -8.89000000000000e-006 
+bbox_xmax 2.54000000000000e-003 
+bbox_ymax -2.28600000000000e-004 
+bbox_zmax 8.89000000000000e-006 
+body_id 63 body_name Substrate num_shells 0 sheet_body_flag 0 nfaces_on_body 6 nvelems_on_body 129 MeshSizeQualityBalance 0 
+face_ids  64  65  66  67  68  69 
+bbox_xmin 0.00000000000000e+000 
+bbox_ymin -2.54000000000000e-003 
+bbox_zmin -3.30200000000000e-004 
+bbox_xmax 2.54000000000000e-003 
+bbox_ymax 2.54000000000000e-003 
+bbox_zmax 3.30200000000000e-004 
+body_id 91 body_name Port1 num_shells 0 sheet_body_flag 1 nfaces_on_body 1 nvelems_on_body 0 MeshSizeQualityBalance 0 
+face_ids  101 
+bbox_xmin 0.00000000000000e+000 
+bbox_ymin -2.54000000000000e-003 
+bbox_zmin -3.30200000000000e-004 
+bbox_xmax 0.00000000000000e+000 
+bbox_ymax 2.54000000000000e-003 
+bbox_zmax 3.30200000000000e-004 
+body_id 104 body_name Port2 num_shells 0 sheet_body_flag 1 nfaces_on_body 1 nvelems_on_body 0 MeshSizeQualityBalance 0 
+face_ids  105 
+bbox_xmin 2.54000000000000e-003 
+bbox_ymin -2.54000000000000e-003 
+bbox_zmin -3.30200000000000e-004 
+bbox_xmax 2.54000000000000e-003 
+bbox_ymax 2.54000000000000e-003 
+bbox_zmax 3.30200000000000e-004 
+body_id 0 body_name background num_shells 0 sheet_body_flag 0 nfaces_on_body 6 nvelems_on_body 245 MeshSizeQualityBalance 0 
+face_ids  2146483648  2146483649  2146483650  2146483651  2146483652  2146483653 
+bbox_xmin -1.27000000000000e-004 
+bbox_ymin -2.79400000000000e-003 
+bbox_zmin -4.95300000000000e-004 
+bbox_xmax 2.66700000000000e-003 
+bbox_ymax 2.79400000000000e-003 
+bbox_zmax 4.95300000000000e-004 
+end_body_data 
+begin_point_data 
+pid 1 coords 0.00000000000000e+000 2.54000000000000e-003 -3.30200000000000e-004 
+pid 2 coords 2.54000000000000e-003 2.54000000000000e-003 -3.30200000000000e-004 
+pid 3 coords 2.54000000000000e-003 -2.54000000000000e-003 -3.30200000000000e-004 
+pid 4 coords 0.00000000000000e+000 -2.54000000000000e-003 -3.30200000000000e-004 
+pid 5 coords 2.54000000000000e-003 -3.04800000000000e-004 -8.89000000000000e-006 
+pid 6 coords 2.54000000000000e-003 -3.81000000000000e-004 -8.89000000000000e-006 
+pid 7 coords 1.27000000000000e-003 -3.81000000000000e-004 -8.89000000000000e-006 
+pid 8 coords 0.00000000000000e+000 -3.81000000000000e-004 -8.89000000000000e-006 
+pid 9 coords 0.00000000000000e+000 -3.04800000000000e-004 -8.89000000000000e-006 
+pid 10 coords 1.27000000000000e-003 -2.28600000000000e-004 -8.89000000000000e-006 
+pid 11 coords 0.00000000000000e+000 -2.28600000000000e-004 -8.89000000000000e-006 
+pid 12 coords 2.54000000000000e-003 -2.28600000000000e-004 -8.89000000000000e-006 
+pid 13 coords 1.27000000000000e-003 2.28600000000000e-004 -8.89000000000000e-006 
+pid 14 coords 1.27000000000000e-003 3.81000000000000e-004 -8.89000000000000e-006 
+pid 15 coords 2.54000000000000e-003 3.04800000000000e-004 -8.89000000000000e-006 
+pid 16 coords 0.00000000000000e+000 2.28600000000000e-004 -8.89000000000000e-006 
+pid 17 coords 0.00000000000000e+000 3.04800000000000e-004 -8.89000000000000e-006 
+pid 18 coords 2.54000000000000e-003 2.28600000000000e-004 -8.89000000000000e-006 
+pid 19 coords 2.54000000000000e-003 3.81000000000000e-004 -8.89000000000000e-006 
+pid 20 coords 0.00000000000000e+000 3.81000000000000e-004 -8.89000000000000e-006 
+pid 21 coords 2.54000000000000e-003 -2.28600000000000e-004 8.89000000000000e-006 
+pid 22 coords 2.54000000000000e-003 -3.04800000000000e-004 8.89000000000000e-006 
+pid 23 coords 1.27000000000000e-003 -2.28600000000000e-004 8.89000000000000e-006 
+pid 24 coords 1.27000000000000e-003 -3.81000000000000e-004 8.89000000000000e-006 
+pid 25 coords 2.54000000000000e-003 -3.81000000000000e-004 8.89000000000000e-006 
+pid 26 coords 0.00000000000000e+000 -3.81000000000000e-004 8.89000000000000e-006 
+pid 27 coords 0.00000000000000e+000 -3.04800000000000e-004 8.89000000000000e-006 
+pid 28 coords 0.00000000000000e+000 -2.28600000000000e-004 8.89000000000000e-006 
+pid 29 coords 2.54000000000000e-003 3.04800000000000e-004 8.89000000000000e-006 
+pid 30 coords 1.27000000000000e-003 2.28600000000000e-004 8.89000000000000e-006 
+pid 31 coords 1.27000000000000e-003 3.81000000000000e-004 8.89000000000000e-006 
+pid 32 coords 2.54000000000000e-003 3.81000000000000e-004 8.89000000000000e-006 
+pid 33 coords 2.54000000000000e-003 2.28600000000000e-004 8.89000000000000e-006 
+pid 34 coords 0.00000000000000e+000 2.28600000000000e-004 8.89000000000000e-006 
+pid 35 coords 0.00000000000000e+000 3.04800000000000e-004 8.89000000000000e-006 
+pid 36 coords 0.00000000000000e+000 3.81000000000000e-004 8.89000000000000e-006 
+pid 37 coords 0.00000000000000e+000 3.81000000000000e-004 3.30200000000000e-004 
+pid 38 coords 0.00000000000000e+000 2.54000000000000e-003 3.30200000000000e-004 
+pid 39 coords 2.54000000000000e-003 2.54000000000000e-003 3.30200000000000e-004 
+pid 40 coords 0.00000000000000e+000 -2.54000000000000e-003 3.30200000000000e-004 
+pid 41 coords 0.00000000000000e+000 -3.81000000000000e-004 3.30200000000000e-004 
+pid 42 coords 2.54000000000000e-003 -2.54000000000000e-003 3.30200000000000e-004 
+pid 43 coords 2.54000000000000e-003 3.81000000000000e-004 3.30200000000000e-004 
+pid 44 coords 0.00000000000000e+000 3.04800000000000e-004 3.30200000000000e-004 
+pid 45 coords 2.54000000000000e-003 3.04800000000000e-004 3.30200000000000e-004 
+pid 46 coords 0.00000000000000e+000 2.28600000000000e-004 3.30200000000000e-004 
+pid 47 coords 2.54000000000000e-003 2.28600000000000e-004 3.30200000000000e-004 
+pid 48 coords 0.00000000000000e+000 -2.28600000000000e-004 3.30200000000000e-004 
+pid 49 coords 2.54000000000000e-003 -2.28600000000000e-004 3.30200000000000e-004 
+pid 50 coords 0.00000000000000e+000 -3.04800000000000e-004 3.30200000000000e-004 
+pid 51 coords 2.54000000000000e-003 -3.04800000000000e-004 3.30200000000000e-004 
+pid 52 coords 2.54000000000000e-003 -3.81000000000000e-004 3.30200000000000e-004 
+pid 53 coords 2.54000000000000e-003 2.54000000000000e-003 -8.89000000000000e-006 
+pid 54 coords 2.66700000000000e-003 2.79400000000000e-003 -8.89000000000000e-006 
+pid 55 coords 2.66700000000000e-003 -2.79400000000000e-003 -3.30200000000000e-004 
+pid 56 coords 2.66700000000000e-003 -2.79400000000000e-003 -8.89000000000000e-006 
+pid 57 coords 2.54000000000000e-003 -2.54000000000000e-003 -8.89000000000000e-006 
+pid 58 coords 2.66700000000000e-003 2.79400000000000e-003 -3.30200000000000e-004 
+pid 59 coords 1.27000000000000e-003 0.00000000000000e+000 -1.69545000000000e-004 
+pid 60 coords 0.00000000000000e+000 2.54000000000000e-003 -8.89000000000000e-006 
+pid 61 coords -1.27000000000000e-004 2.79400000000000e-003 -8.89000000000000e-006 
+pid 62 coords -1.27000000000000e-004 2.79400000000000e-003 -3.30200000000000e-004 
+pid 63 coords -1.27000000000000e-004 -2.79400000000000e-003 -8.89000000000000e-006 
+pid 64 coords -1.27000000000000e-004 -2.79400000000000e-003 -3.30200000000000e-004 
+pid 65 coords 2.66700000000000e-003 -2.79400000000000e-003 8.89000000000000e-006 
+pid 66 coords 2.60450793650794e-003 1.10005549643011e-020 0.00000000000000e+000 
+pid 67 coords 2.66700000000000e-003 2.79400000000000e-003 8.89000000000000e-006 
+pid 68 coords 1.27000000000000e-003 -3.04800000000000e-004 1.40998324127395e-021 
+pid 69 coords 1.27000000000000e-003 3.04800000000000e-004 1.40998324127395e-021 
+pid 70 coords 0.00000000000000e+000 -2.54000000000000e-003 8.89000000000000e-006 
+pid 71 coords -1.27000000000000e-004 -2.79400000000000e-003 8.89000000000000e-006 
+pid 72 coords -1.27000000000000e-004 2.79400000000000e-003 8.89000000000000e-006 
+pid 73 coords -6.45079365079366e-005 2.20011099286022e-020 1.40998324127395e-021 
+pid 74 coords -1.27000000000000e-004 -2.79400000000000e-003 3.30200000000000e-004 
+pid 75 coords -1.27000000000000e-004 2.79400000000000e-003 3.30200000000000e-004 
+pid 76 coords 1.27000000000000e-003 0.00000000000000e+000 1.69545000000000e-004 
+pid 77 coords 2.66700000000000e-003 2.79400000000000e-003 3.30200000000000e-004 
+pid 78 coords 2.66700000000000e-003 -2.79400000000000e-003 3.30200000000000e-004 
+pid 79 coords -1.27000000000000e-004 -2.79400000000000e-003 -4.95300000000000e-004 
+pid 80 coords -1.27000000000000e-004 2.79400000000000e-003 -4.95300000000000e-004 
+pid 81 coords 2.66700000000000e-003 -2.79400000000000e-003 -4.95300000000000e-004 
+pid 82 coords 2.66700000000000e-003 2.79400000000000e-003 -4.95300000000000e-004 
+pid 83 coords 2.66700000000000e-003 -2.79400000000000e-003 4.95300000000000e-004 
+pid 84 coords 2.66700000000000e-003 2.79400000000000e-003 4.95300000000000e-004 
+pid 85 coords -1.27000000000000e-004 -2.79400000000000e-003 4.95300000000000e-004 
+pid 86 coords -1.27000000000000e-004 2.79400000000000e-003 4.95300000000000e-004 
+pid 87 coords 0.00000000000000e+000 3.04800000000000e-004 4.95300000000000e-004 
+pid 88 coords 0.00000000000000e+000 -2.28600000000000e-004 4.95300000000000e-004 
+pid 89 coords 2.54000000000000e-003 2.28600000000000e-004 4.95300000000000e-004 
+pid 90 coords 2.62466666666667e-003 7.62000000000000e-005 4.12750000000000e-004 
+pid 91 coords 1.69333333333333e-003 -2.79400000000000e-004 4.12750000000000e-004 
+end_point_data 
+begin_facet_data 
+facet_id 100 Planar_flag 1 n_surf_elems 8 nfaces_on_facet 1 ref_area_of_facet -1.00000000000000e+000 MeshSizeQualityBalance -1 FacetImportanceLevel -1 face_ids  2146483648 
+bbox_xmin 2.54000000000000e-004 
+bbox_ymin 2.54000000000000e-004 
+bbox_zmin 2.54000000000000e-004 
+bbox_xmax -2.54000000000000e-004 
+bbox_ymax -2.54000000000000e-004 
+bbox_zmax -2.54000000000000e-004 
+seid 1 facet_id 100 nv 3 vert_ids 83 84 89 
+seid 2 facet_id 100 nv 3 vert_ids 88 89 87 
+seid 3 facet_id 100 nv 3 vert_ids 86 88 87 
+seid 4 facet_id 100 nv 3 vert_ids 88 86 85 
+seid 5 facet_id 100 nv 3 vert_ids 87 89 84 
+seid 6 facet_id 100 nv 3 vert_ids 84 86 87 
+seid 7 facet_id 100 nv 3 vert_ids 83 88 85 
+seid 8 facet_id 100 nv 3 vert_ids 88 83 89 
+facet_id 101 Planar_flag 1 n_surf_elems 2 nfaces_on_facet 1 ref_area_of_facet -1.00000000000000e+000 MeshSizeQualityBalance -1 FacetImportanceLevel -1 face_ids  2146483649 
+bbox_xmin 2.54000000000000e-004 
+bbox_ymin 2.54000000000000e-004 
+bbox_zmin 2.54000000000000e-004 
+bbox_xmax -2.54000000000000e-004 
+bbox_ymax -2.54000000000000e-004 
+bbox_zmax -2.54000000000000e-004 
+seid 9 facet_id 101 nv 3 vert_ids 79 82 81 
+seid 10 facet_id 101 nv 3 vert_ids 82 79 80 
+facet_id 102 Planar_flag 1 n_surf_elems 10 nfaces_on_facet 1 ref_area_of_facet -1.00000000000000e+000 MeshSizeQualityBalance -1 FacetImportanceLevel -1 face_ids  2146483650 
+bbox_xmin 2.54000000000000e-004 
+bbox_ymin 2.54000000000000e-004 
+bbox_zmin 2.54000000000000e-004 
+bbox_xmax -2.54000000000000e-004 
+bbox_ymax -2.54000000000000e-004 
+bbox_zmax -2.54000000000000e-004 
+seid 11 facet_id 102 nv 3 vert_ids 55 56 64 
+seid 12 facet_id 102 nv 3 vert_ids 63 64 56 
+seid 13 facet_id 102 nv 3 vert_ids 63 56 65 
+seid 14 facet_id 102 nv 3 vert_ids 65 71 63 
+seid 15 facet_id 102 nv 3 vert_ids 71 65 78 
+seid 16 facet_id 102 nv 3 vert_ids 78 74 71 
+seid 17 facet_id 102 nv 3 vert_ids 55 79 81 
+seid 18 facet_id 102 nv 3 vert_ids 79 55 64 
+seid 19 facet_id 102 nv 3 vert_ids 74 83 85 
+seid 20 facet_id 102 nv 3 vert_ids 83 74 78 
+facet_id 103 Planar_flag 1 n_surf_elems 10 nfaces_on_facet 1 ref_area_of_facet -1.00000000000000e+000 MeshSizeQualityBalance -1 FacetImportanceLevel -1 face_ids  2146483651 
+bbox_xmin 2.54000000000000e-004 
+bbox_ymin 2.54000000000000e-004 
+bbox_zmin 2.54000000000000e-004 
+bbox_xmax -2.54000000000000e-004 
+bbox_ymax -2.54000000000000e-004 
+bbox_zmax -2.54000000000000e-004 
+seid 21 facet_id 103 nv 3 vert_ids 61 62 64 
+seid 22 facet_id 103 nv 3 vert_ids 63 61 64 
+seid 23 facet_id 103 nv 3 vert_ids 63 72 61 
+seid 24 facet_id 103 nv 3 vert_ids 72 63 71 
+seid 25 facet_id 103 nv 3 vert_ids 72 71 74 
+seid 26 facet_id 103 nv 3 vert_ids 74 75 72 
+seid 27 facet_id 103 nv 3 vert_ids 79 62 80 
+seid 28 facet_id 103 nv 3 vert_ids 62 79 64 
+seid 29 facet_id 103 nv 3 vert_ids 86 74 85 
+seid 30 facet_id 103 nv 3 vert_ids 74 86 75 
+facet_id 104 Planar_flag 1 n_surf_elems 10 nfaces_on_facet 1 ref_area_of_facet -1.00000000000000e+000 MeshSizeQualityBalance -1 FacetImportanceLevel -1 face_ids  2146483652 
+bbox_xmin 2.54000000000000e-004 
+bbox_ymin 2.54000000000000e-004 
+bbox_zmin 2.54000000000000e-004 
+bbox_xmax -2.54000000000000e-004 
+bbox_ymax -2.54000000000000e-004 
+bbox_zmax -2.54000000000000e-004 
+seid 31 facet_id 104 nv 3 vert_ids 62 54 58 
+seid 32 facet_id 104 nv 3 vert_ids 54 62 61 
+seid 33 facet_id 104 nv 3 vert_ids 61 72 54 
+seid 34 facet_id 104 nv 3 vert_ids 67 54 72 
+seid 35 facet_id 104 nv 3 vert_ids 72 77 67 
+seid 36 facet_id 104 nv 3 vert_ids 77 72 75 
+seid 37 facet_id 104 nv 3 vert_ids 80 58 82 
+seid 38 facet_id 104 nv 3 vert_ids 58 80 62 
+seid 39 facet_id 104 nv 3 vert_ids 84 75 86 
+seid 40 facet_id 104 nv 3 vert_ids 75 84 77 
+facet_id 105 Planar_flag 1 n_surf_elems 10 nfaces_on_facet 1 ref_area_of_facet -1.00000000000000e+000 MeshSizeQualityBalance -1 FacetImportanceLevel -1 face_ids  2146483653 
+bbox_xmin 2.54000000000000e-004 
+bbox_ymin 2.54000000000000e-004 
+bbox_zmin 2.54000000000000e-004 
+bbox_xmax -2.54000000000000e-004 
+bbox_ymax -2.54000000000000e-004 
+bbox_zmax -2.54000000000000e-004 
+seid 41 facet_id 105 nv 3 vert_ids 58 54 55 
+seid 42 facet_id 105 nv 3 vert_ids 54 56 55 
+seid 43 facet_id 105 nv 3 vert_ids 56 54 67 
+seid 44 facet_id 105 nv 3 vert_ids 67 65 56 
+seid 45 facet_id 105 nv 3 vert_ids 67 78 65 
+seid 46 facet_id 105 nv 3 vert_ids 78 67 77 
+seid 47 facet_id 105 nv 3 vert_ids 82 55 81 
+seid 48 facet_id 105 nv 3 vert_ids 55 82 58 
+seid 49 facet_id 105 nv 3 vert_ids 83 77 84 
+seid 50 facet_id 105 nv 3 vert_ids 77 83 78 
+facet_id 106 Planar_flag 1 n_surf_elems 4 nfaces_on_facet 1 ref_area_of_facet -1.00000000000000e+000 MeshSizeQualityBalance -1 FacetImportanceLevel -1 face_ids  66 
+bbox_xmin 2.54000000000000e-004 
+bbox_ymin 2.54000000000000e-004 
+bbox_zmin 2.54000000000000e-004 
+bbox_xmax -2.54000000000000e-004 
+bbox_ymax -2.54000000000000e-004 
+bbox_zmax -2.54000000000000e-004 
+seid 51 facet_id 106 nv 3 vert_ids 4 57 70 
+seid 52 facet_id 106 nv 3 vert_ids 57 4 3 
+seid 53 facet_id 106 nv 3 vert_ids 57 40 70 
+seid 54 facet_id 106 nv 3 vert_ids 40 57 42 
+facet_id 107 Planar_flag 1 n_surf_elems 26 nfaces_on_facet 2 ref_area_of_facet -1.00000000000000e+000 MeshSizeQualityBalance -1 FacetImportanceLevel -1 face_ids  67  101 
+bbox_xmin 2.54000000000000e-004 
+bbox_ymin 2.54000000000000e-004 
+bbox_zmin 2.54000000000000e-004 
+bbox_xmax -2.54000000000000e-004 
+bbox_ymax -2.54000000000000e-004 
+bbox_zmax -2.54000000000000e-004 
+seid 55 facet_id 107 nv 3 vert_ids 16 4 11 
+seid 56 facet_id 107 nv 3 vert_ids 11 4 9 
+seid 57 facet_id 107 nv 3 vert_ids 9 4 8 
+seid 58 facet_id 107 nv 3 vert_ids 11 34 16 
+seid 59 facet_id 107 nv 3 vert_ids 34 11 28 
+seid 60 facet_id 107 nv 3 vert_ids 60 20 36 
+seid 61 facet_id 107 nv 3 vert_ids 35 34 44 
+seid 62 facet_id 107 nv 3 vert_ids 46 44 34 
+seid 63 facet_id 107 nv 3 vert_ids 36 35 37 
+seid 64 facet_id 107 nv 3 vert_ids 44 37 35 
+seid 65 facet_id 107 nv 3 vert_ids 37 38 36 
+seid 66 facet_id 107 nv 3 vert_ids 26 70 41 
+seid 67 facet_id 107 nv 3 vert_ids 40 41 70 
+seid 68 facet_id 107 nv 3 vert_ids 27 26 50 
+seid 69 facet_id 107 nv 3 vert_ids 41 50 26 
+seid 70 facet_id 107 nv 3 vert_ids 28 27 48 
+seid 71 facet_id 107 nv 3 vert_ids 50 48 27 
+seid 72 facet_id 107 nv 3 vert_ids 34 28 46 
+seid 73 facet_id 107 nv 3 vert_ids 48 46 28 
+seid 74 facet_id 107 nv 3 vert_ids 1 20 60 
+seid 75 facet_id 107 nv 3 vert_ids 1 17 20 
+seid 76 facet_id 107 nv 3 vert_ids 1 16 17 
+seid 77 facet_id 107 nv 3 vert_ids 16 1 4 
+seid 78 facet_id 107 nv 3 vert_ids 8 4 70 
+seid 79 facet_id 107 nv 3 vert_ids 70 26 8 
+seid 80 facet_id 107 nv 3 vert_ids 60 36 38 
+facet_id 108 Planar_flag 1 n_surf_elems 26 nfaces_on_facet 2 ref_area_of_facet -1.00000000000000e+000 MeshSizeQualityBalance -1 FacetImportanceLevel -1 face_ids  69  105 
+bbox_xmin 2.54000000000000e-004 
+bbox_ymin 2.54000000000000e-004 
+bbox_zmin 2.54000000000000e-004 
+bbox_xmax -2.54000000000000e-004 
+bbox_ymax -2.54000000000000e-004 
+bbox_zmax -2.54000000000000e-004 
+seid 81 facet_id 108 nv 3 vert_ids 18 12 2 
+seid 82 facet_id 108 nv 3 vert_ids 15 18 2 
+seid 83 facet_id 108 nv 3 vert_ids 19 15 2 
+seid 84 facet_id 108 nv 3 vert_ids 12 18 21 
+seid 85 facet_id 108 nv 3 vert_ids 33 21 18 
+seid 86 facet_id 108 nv 3 vert_ids 32 45 29 
+seid 87 facet_id 108 nv 3 vert_ids 45 32 43 
+seid 88 facet_id 108 nv 3 vert_ids 29 47 33 
+seid 89 facet_id 108 nv 3 vert_ids 47 29 45 
+seid 90 facet_id 108 nv 3 vert_ids 33 49 21 
+seid 91 facet_id 108 nv 3 vert_ids 49 33 47 
+seid 92 facet_id 108 nv 3 vert_ids 21 51 22 
+seid 93 facet_id 108 nv 3 vert_ids 51 21 49 
+seid 94 facet_id 108 nv 3 vert_ids 22 52 25 
+seid 95 facet_id 108 nv 3 vert_ids 52 22 51 
+seid 96 facet_id 108 nv 3 vert_ids 42 25 52 
+seid 97 facet_id 108 nv 3 vert_ids 3 6 57 
+seid 98 facet_id 108 nv 3 vert_ids 3 5 6 
+seid 99 facet_id 108 nv 3 vert_ids 12 3 2 
+seid 100 facet_id 108 nv 3 vert_ids 3 12 5 
+seid 101 facet_id 108 nv 3 vert_ids 25 57 6 
+seid 102 facet_id 108 nv 3 vert_ids 25 42 57 
+seid 103 facet_id 108 nv 3 vert_ids 19 53 32 
+seid 104 facet_id 108 nv 3 vert_ids 53 19 2 
+seid 105 facet_id 108 nv 3 vert_ids 32 39 43 
+seid 106 facet_id 108 nv 3 vert_ids 39 32 53 
+facet_id 109 Planar_flag 1 n_surf_elems 4 nfaces_on_facet 1 ref_area_of_facet -1.00000000000000e+000 MeshSizeQualityBalance -1 FacetImportanceLevel -1 face_ids  68 
+bbox_xmin 2.54000000000000e-004 
+bbox_ymin 2.54000000000000e-004 
+bbox_zmin 2.54000000000000e-004 
+bbox_xmax -2.54000000000000e-004 
+bbox_ymax -2.54000000000000e-004 
+bbox_zmax -2.54000000000000e-004 
+seid 107 facet_id 109 nv 3 vert_ids 2 1 60 
+seid 108 facet_id 109 nv 3 vert_ids 38 39 53 
+seid 109 facet_id 109 nv 3 vert_ids 53 60 38 
+seid 110 facet_id 109 nv 3 vert_ids 60 53 2 
+facet_id 110 Planar_flag 1 n_surf_elems 2 nfaces_on_facet 1 ref_area_of_facet -1.00000000000000e+000 MeshSizeQualityBalance -1 FacetImportanceLevel -1 face_ids  65 
+bbox_xmin 2.54000000000000e-004 
+bbox_ymin 2.54000000000000e-004 
+bbox_zmin 2.54000000000000e-004 
+bbox_xmax -2.54000000000000e-004 
+bbox_ymax -2.54000000000000e-004 
+bbox_zmax -2.54000000000000e-004 
+seid 111 facet_id 110 nv 3 vert_ids 1 2 3 
+seid 112 facet_id 110 nv 3 vert_ids 1 3 4 
+facet_id 111 Planar_flag 1 n_surf_elems 4 nfaces_on_facet 1 ref_area_of_facet -1.00000000000000e+000 MeshSizeQualityBalance -1 FacetImportanceLevel -1 face_ids  9 
+bbox_xmin 2.54000000000000e-004 
+bbox_ymin 2.54000000000000e-004 
+bbox_zmin 2.54000000000000e-004 
+bbox_xmax -2.54000000000000e-004 
+bbox_ymax -2.54000000000000e-004 
+bbox_zmax -2.54000000000000e-004 
+seid 113 facet_id 111 nv 3 vert_ids 18 33 13 
+seid 114 facet_id 111 nv 3 vert_ids 13 33 30 
+seid 115 facet_id 111 nv 3 vert_ids 34 16 13 
+seid 116 facet_id 111 nv 3 vert_ids 13 30 34 
+facet_id 112 Planar_flag 1 n_surf_elems 4 nfaces_on_facet 3 ref_area_of_facet -1.00000000000000e+000 MeshSizeQualityBalance -1 FacetImportanceLevel -1 face_ids  10  67  101 
+bbox_xmin 2.54000000000000e-004 
+bbox_ymin 2.54000000000000e-004 
+bbox_zmin 2.54000000000000e-004 
+bbox_xmax -2.54000000000000e-004 
+bbox_ymax -2.54000000000000e-004 
+bbox_zmax -2.54000000000000e-004 
+seid 117 facet_id 112 nv 3 vert_ids 20 17 35 
+seid 118 facet_id 112 nv 3 vert_ids 35 36 20 
+seid 119 facet_id 112 nv 3 vert_ids 17 16 34 
+seid 120 facet_id 112 nv 3 vert_ids 34 35 17 
+facet_id 113 Planar_flag 1 n_surf_elems 4 nfaces_on_facet 1 ref_area_of_facet -1.00000000000000e+000 MeshSizeQualityBalance -1 FacetImportanceLevel -1 face_ids  11 
+bbox_xmin 2.54000000000000e-004 
+bbox_ymin 2.54000000000000e-004 
+bbox_zmin 2.54000000000000e-004 
+bbox_xmax -2.54000000000000e-004 
+bbox_ymax -2.54000000000000e-004 
+bbox_zmax -2.54000000000000e-004 
+seid 121 facet_id 113 nv 3 vert_ids 14 32 19 
+seid 122 facet_id 113 nv 3 vert_ids 32 14 31 
+seid 123 facet_id 113 nv 3 vert_ids 14 20 36 
+seid 124 facet_id 113 nv 3 vert_ids 36 31 14 
+facet_id 114 Planar_flag 1 n_surf_elems 4 nfaces_on_facet 3 ref_area_of_facet -1.00000000000000e+000 MeshSizeQualityBalance -1 FacetImportanceLevel -1 face_ids  12  69  105 
+bbox_xmin 2.54000000000000e-004 
+bbox_ymin 2.54000000000000e-004 
+bbox_zmin 2.54000000000000e-004 
+bbox_xmax -2.54000000000000e-004 
+bbox_ymax -2.54000000000000e-004 
+bbox_zmax -2.54000000000000e-004 
+seid 125 facet_id 114 nv 3 vert_ids 15 19 29 
+seid 126 facet_id 114 nv 3 vert_ids 32 29 19 
+seid 127 facet_id 114 nv 3 vert_ids 18 15 33 
+seid 128 facet_id 114 nv 3 vert_ids 29 33 15 
+facet_id 115 Planar_flag 1 n_surf_elems 4 nfaces_on_facet 1 ref_area_of_facet -1.00000000000000e+000 MeshSizeQualityBalance -1 FacetImportanceLevel -1 face_ids  38 
+bbox_xmin 2.54000000000000e-004 
+bbox_ymin 2.54000000000000e-004 
+bbox_zmin 2.54000000000000e-004 
+bbox_xmax -2.54000000000000e-004 
+bbox_ymax -2.54000000000000e-004 
+bbox_zmax -2.54000000000000e-004 
+seid 129 facet_id 115 nv 3 vert_ids 11 23 10 
+seid 130 facet_id 115 nv 3 vert_ids 23 11 28 
+seid 131 facet_id 115 nv 3 vert_ids 10 21 12 
+seid 132 facet_id 115 nv 3 vert_ids 21 10 23 
+facet_id 116 Planar_flag 1 n_surf_elems 4 nfaces_on_facet 3 ref_area_of_facet -1.00000000000000e+000 MeshSizeQualityBalance -1 FacetImportanceLevel -1 face_ids  39  67  101 
+bbox_xmin 2.54000000000000e-004 
+bbox_ymin 2.54000000000000e-004 
+bbox_zmin 2.54000000000000e-004 
+bbox_xmax -2.54000000000000e-004 
+bbox_ymax -2.54000000000000e-004 
+bbox_zmax -2.54000000000000e-004 
+seid 133 facet_id 116 nv 3 vert_ids 8 27 9 
+seid 134 facet_id 116 nv 3 vert_ids 27 8 26 
+seid 135 facet_id 116 nv 3 vert_ids 9 28 11 
+seid 136 facet_id 116 nv 3 vert_ids 28 9 27 
+facet_id 117 Planar_flag 1 n_surf_elems 4 nfaces_on_facet 1 ref_area_of_facet -1.00000000000000e+000 MeshSizeQualityBalance -1 FacetImportanceLevel -1 face_ids  40 
+bbox_xmin 2.54000000000000e-004 
+bbox_ymin 2.54000000000000e-004 
+bbox_zmin 2.54000000000000e-004 
+bbox_xmax -2.54000000000000e-004 
+bbox_ymax -2.54000000000000e-004 
+bbox_zmax -2.54000000000000e-004 
+seid 137 facet_id 117 nv 3 vert_ids 7 6 25 
+seid 138 facet_id 117 nv 3 vert_ids 25 24 7 
+seid 139 facet_id 117 nv 3 vert_ids 7 26 8 
+seid 140 facet_id 117 nv 3 vert_ids 26 7 24 
+facet_id 118 Planar_flag 1 n_surf_elems 4 nfaces_on_facet 3 ref_area_of_facet -1.00000000000000e+000 MeshSizeQualityBalance -1 FacetImportanceLevel -1 face_ids  41  69  105 
+bbox_xmin 2.54000000000000e-004 
+bbox_ymin 2.54000000000000e-004 
+bbox_zmin 2.54000000000000e-004 
+bbox_xmax -2.54000000000000e-004 
+bbox_ymax -2.54000000000000e-004 
+bbox_zmax -2.54000000000000e-004 
+seid 141 facet_id 118 nv 3 vert_ids 5 12 22 
+seid 142 facet_id 118 nv 3 vert_ids 21 22 12 
+seid 143 facet_id 118 nv 3 vert_ids 6 5 25 
+seid 144 facet_id 118 nv 3 vert_ids 22 25 5 
+facet_id 119 Planar_flag 1 n_surf_elems 6 nfaces_on_facet 1 ref_area_of_facet -1.00000000000000e+000 MeshSizeQualityBalance -1 FacetImportanceLevel -1 face_ids  37 
+bbox_xmin 2.54000000000000e-004 
+bbox_ymin 2.54000000000000e-004 
+bbox_zmin 2.54000000000000e-004 
+bbox_xmax -2.54000000000000e-004 
+bbox_ymax -2.54000000000000e-004 
+bbox_zmax -2.54000000000000e-004 
+seid 145 facet_id 119 nv 3 vert_ids 5 6 7 
+seid 146 facet_id 119 nv 3 vert_ids 8 9 7 
+seid 147 facet_id 119 nv 3 vert_ids 10 7 9 
+seid 148 facet_id 119 nv 3 vert_ids 9 11 10 
+seid 149 facet_id 119 nv 3 vert_ids 10 12 5 
+seid 150 facet_id 119 nv 3 vert_ids 5 7 10 
+facet_id 120 Planar_flag 1 n_surf_elems 6 nfaces_on_facet 1 ref_area_of_facet -1.00000000000000e+000 MeshSizeQualityBalance -1 FacetImportanceLevel -1 face_ids  8 
+bbox_xmin 2.54000000000000e-004 
+bbox_ymin 2.54000000000000e-004 
+bbox_zmin 2.54000000000000e-004 
+bbox_xmax -2.54000000000000e-004 
+bbox_ymax -2.54000000000000e-004 
+bbox_zmax -2.54000000000000e-004 
+seid 151 facet_id 120 nv 3 vert_ids 13 14 15 
+seid 152 facet_id 120 nv 3 vert_ids 13 16 17 
+seid 153 facet_id 120 nv 3 vert_ids 17 14 13 
+seid 154 facet_id 120 nv 3 vert_ids 15 18 13 
+seid 155 facet_id 120 nv 3 vert_ids 19 15 14 
+seid 156 facet_id 120 nv 3 vert_ids 17 20 14 
+facet_id 121 Planar_flag 1 n_surf_elems 6 nfaces_on_facet 1 ref_area_of_facet -1.00000000000000e+000 MeshSizeQualityBalance -1 FacetImportanceLevel -1 face_ids  36 
+bbox_xmin 2.54000000000000e-004 
+bbox_ymin 2.54000000000000e-004 
+bbox_zmin 2.54000000000000e-004 
+bbox_xmax -2.54000000000000e-004 
+bbox_ymax -2.54000000000000e-004 
+bbox_zmax -2.54000000000000e-004 
+seid 157 facet_id 121 nv 3 vert_ids 22 21 23 
+seid 158 facet_id 121 nv 3 vert_ids 23 24 22 
+seid 159 facet_id 121 nv 3 vert_ids 25 22 24 
+seid 160 facet_id 121 nv 3 vert_ids 26 24 27 
+seid 161 facet_id 121 nv 3 vert_ids 23 27 24 
+seid 162 facet_id 121 nv 3 vert_ids 27 23 28 
+facet_id 122 Planar_flag 1 n_surf_elems 6 nfaces_on_facet 1 ref_area_of_facet -1.00000000000000e+000 MeshSizeQualityBalance -1 FacetImportanceLevel -1 face_ids  7 
+bbox_xmin 2.54000000000000e-004 
+bbox_ymin 2.54000000000000e-004 
+bbox_zmin 2.54000000000000e-004 
+bbox_xmax -2.54000000000000e-004 
+bbox_ymax -2.54000000000000e-004 
+bbox_zmax -2.54000000000000e-004 
+seid 163 facet_id 122 nv 3 vert_ids 30 29 31 
+seid 164 facet_id 122 nv 3 vert_ids 32 31 29 
+seid 165 facet_id 122 nv 3 vert_ids 33 29 30 
+seid 166 facet_id 122 nv 3 vert_ids 34 30 35 
+seid 167 facet_id 122 nv 3 vert_ids 31 35 30 
+seid 168 facet_id 122 nv 3 vert_ids 36 35 31 
+facet_id 123 Planar_flag 1 n_surf_elems 14 nfaces_on_facet 1 ref_area_of_facet -1.00000000000000e+000 MeshSizeQualityBalance -1 FacetImportanceLevel -1 face_ids  64 
+bbox_xmin 2.54000000000000e-004 
+bbox_ymin 2.54000000000000e-004 
+bbox_zmin 2.54000000000000e-004 
+bbox_xmax -2.54000000000000e-004 
+bbox_ymax -2.54000000000000e-004 
+bbox_zmax -2.54000000000000e-004 
+seid 169 facet_id 123 nv 3 vert_ids 38 37 39 
+seid 170 facet_id 123 nv 3 vert_ids 41 40 42 
+seid 171 facet_id 123 nv 3 vert_ids 44 43 37 
+seid 172 facet_id 123 nv 3 vert_ids 39 37 43 
+seid 173 facet_id 123 nv 3 vert_ids 43 44 45 
+seid 174 facet_id 123 nv 3 vert_ids 46 45 44 
+seid 175 facet_id 123 nv 3 vert_ids 45 46 47 
+seid 176 facet_id 123 nv 3 vert_ids 48 47 46 
+seid 177 facet_id 123 nv 3 vert_ids 47 48 49 
+seid 178 facet_id 123 nv 3 vert_ids 50 49 48 
+seid 179 facet_id 123 nv 3 vert_ids 49 50 51 
+seid 180 facet_id 123 nv 3 vert_ids 41 51 50 
+seid 181 facet_id 123 nv 3 vert_ids 52 51 41 
+seid 182 facet_id 123 nv 3 vert_ids 42 52 41 
+end_facet_data 
+begin_vol_element_data 
+veid 1 body_id 6 nv 4 vert_ids 29 31 30 69 locked 0
+veid 2 body_id 6 nv 4 vert_ids 31 29 32 69 locked 0
+veid 3 body_id 6 nv 4 vert_ids 29 30 33 69 locked 0
+veid 4 body_id 6 nv 4 vert_ids 30 35 34 69 locked 0
+veid 5 body_id 6 nv 4 vert_ids 35 30 31 69 locked 0
+veid 6 body_id 6 nv 4 vert_ids 35 31 36 69 locked 0
+veid 7 body_id 6 nv 4 vert_ids 13 14 15 69 locked 0
+veid 8 body_id 6 nv 4 vert_ids 13 16 17 69 locked 0
+veid 9 body_id 6 nv 4 vert_ids 17 14 13 69 locked 0
+veid 10 body_id 6 nv 4 vert_ids 15 18 13 69 locked 0
+veid 11 body_id 6 nv 4 vert_ids 19 15 14 69 locked 0
+veid 12 body_id 6 nv 4 vert_ids 17 20 14 69 locked 0
+veid 13 body_id 6 nv 4 vert_ids 13 18 33 69 locked 0
+veid 14 body_id 6 nv 4 vert_ids 33 30 13 69 locked 0
+veid 15 body_id 6 nv 4 vert_ids 15 33 18 69 locked 0
+veid 16 body_id 6 nv 4 vert_ids 33 15 29 69 locked 0
+veid 17 body_id 6 nv 4 vert_ids 19 29 15 69 locked 0
+veid 18 body_id 6 nv 4 vert_ids 29 19 32 69 locked 0
+veid 19 body_id 6 nv 4 vert_ids 14 32 19 69 locked 0
+veid 20 body_id 6 nv 4 vert_ids 32 14 31 69 locked 0
+veid 21 body_id 6 nv 4 vert_ids 14 20 36 69 locked 0
+veid 22 body_id 6 nv 4 vert_ids 36 31 14 69 locked 0
+veid 23 body_id 6 nv 4 vert_ids 20 17 35 69 locked 0
+veid 24 body_id 6 nv 4 vert_ids 35 36 20 69 locked 0
+veid 25 body_id 6 nv 4 vert_ids 17 16 34 69 locked 0
+veid 26 body_id 6 nv 4 vert_ids 34 35 17 69 locked 0
+veid 27 body_id 6 nv 4 vert_ids 13 34 16 69 locked 0
+veid 28 body_id 6 nv 4 vert_ids 34 13 30 69 locked 0
+veid 29 body_id 35 nv 4 vert_ids 21 23 22 68 locked 0
+veid 30 body_id 35 nv 4 vert_ids 24 22 23 68 locked 0
+veid 31 body_id 35 nv 4 vert_ids 22 24 25 68 locked 0
+veid 32 body_id 35 nv 4 vert_ids 24 27 26 68 locked 0
+veid 33 body_id 35 nv 4 vert_ids 27 24 23 68 locked 0
+veid 34 body_id 35 nv 4 vert_ids 23 28 27 68 locked 0
+veid 35 body_id 35 nv 4 vert_ids 5 6 7 68 locked 0
+veid 36 body_id 35 nv 4 vert_ids 8 9 7 68 locked 0
+veid 37 body_id 35 nv 4 vert_ids 10 7 9 68 locked 0
+veid 38 body_id 35 nv 4 vert_ids 9 11 10 68 locked 0
+veid 39 body_id 35 nv 4 vert_ids 10 12 5 68 locked 0
+veid 40 body_id 35 nv 4 vert_ids 5 7 10 68 locked 0
+veid 41 body_id 35 nv 4 vert_ids 11 23 10 68 locked 0
+veid 42 body_id 35 nv 4 vert_ids 23 11 28 68 locked 0
+veid 43 body_id 35 nv 4 vert_ids 10 21 12 68 locked 0
+veid 44 body_id 35 nv 4 vert_ids 21 10 23 68 locked 0
+veid 45 body_id 35 nv 4 vert_ids 12 22 5 68 locked 0
+veid 46 body_id 35 nv 4 vert_ids 22 12 21 68 locked 0
+veid 47 body_id 35 nv 4 vert_ids 5 25 6 68 locked 0
+veid 48 body_id 35 nv 4 vert_ids 25 5 22 68 locked 0
+veid 49 body_id 35 nv 4 vert_ids 7 6 25 68 locked 0
+veid 50 body_id 35 nv 4 vert_ids 25 24 7 68 locked 0
+veid 51 body_id 35 nv 4 vert_ids 7 26 8 68 locked 0
+veid 52 body_id 35 nv 4 vert_ids 26 7 24 68 locked 0
+veid 53 body_id 35 nv 4 vert_ids 8 27 9 68 locked 0
+veid 54 body_id 35 nv 4 vert_ids 27 8 26 68 locked 0
+veid 55 body_id 35 nv 4 vert_ids 9 28 11 68 locked 0
+veid 56 body_id 35 nv 4 vert_ids 28 9 27 68 locked 0
+veid 57 body_id 63 nv 4 vert_ids 10 12 13 59 locked 0
+veid 58 body_id 63 nv 4 vert_ids 1 2 3 59 locked 0
+veid 59 body_id 63 nv 4 vert_ids 1 3 4 59 locked 0
+veid 60 body_id 63 nv 4 vert_ids 23 21 30 13 locked 0
+veid 61 body_id 63 nv 4 vert_ids 28 23 30 13 locked 0
+veid 62 body_id 63 nv 4 vert_ids 33 30 21 13 locked 0
+veid 63 body_id 63 nv 4 vert_ids 30 34 28 13 locked 0
+veid 64 body_id 63 nv 4 vert_ids 18 21 12 13 locked 0
+veid 65 body_id 63 nv 4 vert_ids 21 18 33 13 locked 0
+veid 66 body_id 63 nv 4 vert_ids 10 12 21 13 locked 0
+veid 67 body_id 63 nv 4 vert_ids 21 23 10 13 locked 0
+veid 68 body_id 63 nv 4 vert_ids 11 10 23 13 locked 0
+veid 69 body_id 63 nv 4 vert_ids 23 28 11 13 locked 0
+veid 70 body_id 63 nv 4 vert_ids 11 34 16 13 locked 0
+veid 71 body_id 63 nv 4 vert_ids 34 11 28 13 locked 0
+veid 72 body_id 63 nv 4 vert_ids 60 20 36 14 locked 0
+veid 73 body_id 63 nv 4 vert_ids 26 70 24 7 locked 0
+veid 74 body_id 63 nv 4 vert_ids 43 37 44 76 locked 0
+veid 75 body_id 63 nv 4 vert_ids 44 45 43 76 locked 0
+veid 76 body_id 63 nv 4 vert_ids 45 44 46 76 locked 0
+veid 77 body_id 63 nv 4 vert_ids 46 47 45 76 locked 0
+veid 78 body_id 63 nv 4 vert_ids 47 46 48 76 locked 0
+veid 79 body_id 63 nv 4 vert_ids 48 49 47 76 locked 0
+veid 80 body_id 63 nv 4 vert_ids 49 48 50 76 locked 0
+veid 81 body_id 63 nv 4 vert_ids 50 51 49 76 locked 0
+veid 82 body_id 63 nv 4 vert_ids 23 30 21 76 locked 0
+veid 83 body_id 63 nv 4 vert_ids 28 30 23 76 locked 0
+veid 84 body_id 63 nv 4 vert_ids 33 21 30 76 locked 0
+veid 85 body_id 63 nv 4 vert_ids 30 28 34 76 locked 0
+veid 86 body_id 63 nv 4 vert_ids 30 34 35 76 locked 0
+veid 87 body_id 63 nv 4 vert_ids 34 44 35 76 locked 0
+veid 88 body_id 63 nv 4 vert_ids 44 34 46 76 locked 0
+veid 89 body_id 63 nv 4 vert_ids 37 35 44 76 locked 0
+veid 90 body_id 63 nv 4 vert_ids 33 49 21 76 locked 0
+veid 91 body_id 63 nv 4 vert_ids 49 33 47 76 locked 0
+veid 92 body_id 63 nv 4 vert_ids 51 21 49 76 locked 0
+veid 93 body_id 63 nv 4 vert_ids 28 46 34 76 locked 0
+veid 94 body_id 63 nv 4 vert_ids 46 28 48 76 locked 0
+veid 95 body_id 63 nv 4 vert_ids 12 59 3 2 locked 0
+veid 96 body_id 63 nv 4 vert_ids 1 14 20 60 locked 0
+veid 97 body_id 63 nv 4 vert_ids 1 14 2 59 locked 0
+veid 98 body_id 63 nv 4 vert_ids 1 2 14 60 locked 0
+veid 99 body_id 63 nv 4 vert_ids 3 7 6 57 locked 0
+veid 100 body_id 63 nv 4 vert_ids 3 7 5 6 locked 0
+veid 101 body_id 63 nv 4 vert_ids 7 10 3 5 locked 0
+veid 102 body_id 63 nv 4 vert_ids 7 3 10 59 locked 0
+veid 103 body_id 63 nv 4 vert_ids 10 12 3 5 locked 0
+veid 104 body_id 63 nv 4 vert_ids 10 3 12 59 locked 0
+veid 105 body_id 63 nv 4 vert_ids 4 3 7 59 locked 0
+veid 106 body_id 63 nv 4 vert_ids 14 2 15 19 locked 0
+veid 107 body_id 63 nv 4 vert_ids 7 4 9 8 locked 0
+veid 108 body_id 63 nv 4 vert_ids 2 18 13 15 locked 0
+veid 109 body_id 63 nv 4 vert_ids 2 13 14 15 locked 0
+veid 110 body_id 63 nv 4 vert_ids 2 14 13 59 locked 0
+veid 111 body_id 63 nv 4 vert_ids 4 11 10 9 locked 0
+veid 112 body_id 63 nv 4 vert_ids 4 10 7 9 locked 0
+veid 113 body_id 63 nv 4 vert_ids 4 7 10 59 locked 0
+veid 114 body_id 63 nv 4 vert_ids 13 2 12 18 locked 0
+veid 115 body_id 63 nv 4 vert_ids 13 12 2 59 locked 0
+veid 116 body_id 63 nv 4 vert_ids 10 4 13 11 locked 0
+veid 117 body_id 63 nv 4 vert_ids 10 13 4 59 locked 0
+veid 118 body_id 63 nv 4 vert_ids 13 4 16 11 locked 0
+veid 119 body_id 63 nv 4 vert_ids 17 1 14 20 locked 0
+veid 120 body_id 63 nv 4 vert_ids 59 1 16 4 locked 0
+veid 121 body_id 63 nv 4 vert_ids 59 16 13 4 locked 0
+veid 122 body_id 63 nv 4 vert_ids 16 1 13 17 locked 0
+veid 123 body_id 63 nv 4 vert_ids 16 13 1 59 locked 0
+veid 124 body_id 63 nv 4 vert_ids 1 14 13 17 locked 0
+veid 125 body_id 63 nv 4 vert_ids 1 13 14 59 locked 0
+veid 126 body_id 63 nv 4 vert_ids 70 26 8 7 locked 0
+veid 127 body_id 63 nv 4 vert_ids 4 8 7 70 locked 0
+veid 128 body_id 63 nv 4 vert_ids 4 7 57 70 locked 0
+veid 129 body_id 63 nv 4 vert_ids 4 57 7 3 locked 0
+veid 130 body_id 63 nv 4 vert_ids 36 31 60 14 locked 0
+veid 131 body_id 63 nv 4 vert_ids 31 38 36 60 locked 0
+veid 132 body_id 63 nv 4 vert_ids 38 37 31 36 locked 0
+veid 133 body_id 63 nv 4 vert_ids 37 35 31 36 locked 0
+veid 134 body_id 63 nv 4 vert_ids 76 35 30 37 locked 0
+veid 135 body_id 63 nv 4 vert_ids 35 31 30 37 locked 0
+veid 136 body_id 63 nv 4 vert_ids 31 76 30 37 locked 0
+veid 137 body_id 63 nv 4 vert_ids 25 24 57 7 locked 0
+veid 138 body_id 63 nv 4 vert_ids 70 57 24 7 locked 0
+veid 139 body_id 63 nv 4 vert_ids 57 6 25 7 locked 0
+veid 140 body_id 63 nv 4 vert_ids 42 25 24 57 locked 0
+veid 141 body_id 63 nv 4 vert_ids 42 24 40 57 locked 0
+veid 142 body_id 63 nv 4 vert_ids 24 70 40 57 locked 0
+veid 143 body_id 63 nv 4 vert_ids 42 52 24 25 locked 0
+veid 144 body_id 63 nv 4 vert_ids 52 22 24 25 locked 0
+veid 145 body_id 63 nv 4 vert_ids 40 24 41 70 locked 0
+veid 146 body_id 63 nv 4 vert_ids 41 24 26 70 locked 0
+veid 147 body_id 63 nv 4 vert_ids 24 41 42 40 locked 0
+veid 148 body_id 63 nv 4 vert_ids 24 41 52 42 locked 0
+veid 149 body_id 63 nv 4 vert_ids 24 51 22 52 locked 0
+veid 150 body_id 63 nv 4 vert_ids 24 41 51 52 locked 0
+veid 151 body_id 63 nv 4 vert_ids 76 23 24 51 locked 0
+veid 152 body_id 63 nv 4 vert_ids 24 23 22 51 locked 0
+veid 153 body_id 63 nv 4 vert_ids 51 50 24 76 locked 0
+veid 154 body_id 63 nv 4 vert_ids 51 24 50 41 locked 0
+veid 155 body_id 63 nv 4 vert_ids 50 24 26 41 locked 0
+veid 156 body_id 63 nv 4 vert_ids 24 27 50 26 locked 0
+veid 157 body_id 63 nv 4 vert_ids 51 23 21 76 locked 0
+veid 158 body_id 63 nv 4 vert_ids 51 21 23 22 locked 0
+veid 159 body_id 63 nv 4 vert_ids 76 24 23 50 locked 0
+veid 160 body_id 63 nv 4 vert_ids 24 27 23 50 locked 0
+veid 161 body_id 63 nv 4 vert_ids 23 48 28 76 locked 0
+veid 162 body_id 63 nv 4 vert_ids 23 28 48 27 locked 0
+veid 163 body_id 63 nv 4 vert_ids 23 50 48 76 locked 0
+veid 164 body_id 63 nv 4 vert_ids 23 48 50 27 locked 0
+veid 165 body_id 63 nv 4 vert_ids 53 31 32 14 locked 0
+veid 166 body_id 63 nv 4 vert_ids 53 60 31 14 locked 0
+veid 167 body_id 63 nv 4 vert_ids 53 38 31 60 locked 0
+veid 168 body_id 63 nv 4 vert_ids 53 32 19 14 locked 0
+veid 169 body_id 63 nv 4 vert_ids 14 2 53 60 locked 0
+veid 170 body_id 63 nv 4 vert_ids 14 2 19 53 locked 0
+veid 171 body_id 63 nv 4 vert_ids 39 38 31 53 locked 0
+veid 172 body_id 63 nv 4 vert_ids 31 39 37 38 locked 0
+veid 173 body_id 63 nv 4 vert_ids 32 31 39 43 locked 0
+veid 174 body_id 63 nv 4 vert_ids 32 39 31 53 locked 0
+veid 175 body_id 63 nv 4 vert_ids 31 29 45 32 locked 0
+veid 176 body_id 63 nv 4 vert_ids 31 45 43 32 locked 0
+veid 177 body_id 63 nv 4 vert_ids 31 43 45 76 locked 0
+veid 178 body_id 63 nv 4 vert_ids 37 43 31 76 locked 0
+veid 179 body_id 63 nv 4 vert_ids 37 31 43 39 locked 0
+veid 180 body_id 63 nv 4 vert_ids 31 30 76 45 locked 0
+veid 181 body_id 63 nv 4 vert_ids 29 30 31 45 locked 0
+veid 182 body_id 63 nv 4 vert_ids 45 47 30 76 locked 0
+veid 183 body_id 63 nv 4 vert_ids 45 30 47 29 locked 0
+veid 184 body_id 63 nv 4 vert_ids 47 33 30 76 locked 0
+veid 185 body_id 63 nv 4 vert_ids 47 30 33 29 locked 0
+veid 186 body_id 0 nv 4 vert_ids 2 54 58 55 locked 0
+veid 187 body_id 0 nv 4 vert_ids 1 61 62 2 locked 0
+veid 188 body_id 0 nv 4 vert_ids 61 1 60 2 locked 0
+veid 189 body_id 0 nv 4 vert_ids 62 54 58 2 locked 0
+veid 190 body_id 0 nv 4 vert_ids 54 62 61 2 locked 0
+veid 191 body_id 0 nv 4 vert_ids 57 56 65 66 locked 0
+veid 192 body_id 0 nv 4 vert_ids 56 54 67 66 locked 0
+veid 193 body_id 0 nv 4 vert_ids 67 65 56 66 locked 0
+veid 194 body_id 0 nv 4 vert_ids 15 18 33 66 locked 0
+veid 195 body_id 0 nv 4 vert_ids 33 29 15 66 locked 0
+veid 196 body_id 0 nv 4 vert_ids 18 12 21 66 locked 0
+veid 197 body_id 0 nv 4 vert_ids 21 33 18 66 locked 0
+veid 198 body_id 0 nv 4 vert_ids 12 5 22 66 locked 0
+veid 199 body_id 0 nv 4 vert_ids 22 21 12 66 locked 0
+veid 200 body_id 0 nv 4 vert_ids 5 6 25 66 locked 0
+veid 201 body_id 0 nv 4 vert_ids 25 22 5 66 locked 0
+veid 202 body_id 0 nv 4 vert_ids 63 72 61 73 locked 0
+veid 203 body_id 0 nv 4 vert_ids 72 63 71 73 locked 0
+veid 204 body_id 0 nv 4 vert_ids 20 35 17 73 locked 0
+veid 205 body_id 0 nv 4 vert_ids 17 34 16 73 locked 0
+veid 206 body_id 0 nv 4 vert_ids 34 17 35 73 locked 0
+veid 207 body_id 0 nv 4 vert_ids 11 16 34 73 locked 0
+veid 208 body_id 0 nv 4 vert_ids 34 28 11 73 locked 0
+veid 209 body_id 0 nv 4 vert_ids 9 11 28 73 locked 0
+veid 210 body_id 0 nv 4 vert_ids 28 27 9 73 locked 0
+veid 211 body_id 0 nv 4 vert_ids 8 9 27 73 locked 0
+veid 212 body_id 0 nv 4 vert_ids 77 84 83 90 locked 0
+veid 213 body_id 0 nv 4 vert_ids 84 89 83 90 locked 0
+veid 214 body_id 0 nv 4 vert_ids 66 55 56 54 locked 0
+veid 215 body_id 0 nv 4 vert_ids 18 66 2 12 locked 0
+veid 216 body_id 0 nv 4 vert_ids 66 2 55 54 locked 0
+veid 217 body_id 0 nv 4 vert_ids 5 66 3 6 locked 0
+veid 218 body_id 0 nv 4 vert_ids 3 55 66 2 locked 0
+veid 219 body_id 0 nv 4 vert_ids 66 12 3 2 locked 0
+veid 220 body_id 0 nv 4 vert_ids 66 3 12 5 locked 0
+veid 221 body_id 0 nv 4 vert_ids 1 20 61 60 locked 0
+veid 222 body_id 0 nv 4 vert_ids 73 64 61 63 locked 0
+veid 223 body_id 0 nv 4 vert_ids 66 55 57 56 locked 0
+veid 224 body_id 0 nv 4 vert_ids 2 15 66 18 locked 0
+veid 225 body_id 0 nv 4 vert_ids 19 54 29 32 locked 0
+veid 226 body_id 0 nv 4 vert_ids 29 54 67 32 locked 0
+veid 227 body_id 0 nv 4 vert_ids 29 67 54 66 locked 0
+veid 228 body_id 0 nv 4 vert_ids 71 63 8 73 locked 0
+veid 229 body_id 0 nv 4 vert_ids 72 61 20 60 locked 0
+veid 230 body_id 0 nv 4 vert_ids 72 20 61 73 locked 0
+veid 231 body_id 0 nv 4 vert_ids 72 20 36 60 locked 0
+veid 232 body_id 0 nv 4 vert_ids 36 73 20 72 locked 0
+veid 233 body_id 0 nv 4 vert_ids 36 20 73 35 locked 0
+veid 234 body_id 0 nv 4 vert_ids 70 71 41 40 locked 0
+veid 235 body_id 0 nv 4 vert_ids 41 71 74 40 locked 0
+veid 236 body_id 0 nv 4 vert_ids 71 41 26 70 locked 0
+veid 237 body_id 0 nv 4 vert_ids 32 77 45 43 locked 0
+veid 238 body_id 0 nv 4 vert_ids 66 57 3 6 locked 0
+veid 239 body_id 0 nv 4 vert_ids 66 3 57 55 locked 0
+veid 240 body_id 0 nv 4 vert_ids 29 19 66 54 locked 0
+veid 241 body_id 0 nv 4 vert_ids 29 66 19 15 locked 0
+veid 242 body_id 0 nv 4 vert_ids 66 19 2 54 locked 0
+veid 243 body_id 0 nv 4 vert_ids 66 2 19 15 locked 0
+veid 244 body_id 0 nv 4 vert_ids 73 8 64 63 locked 0
+veid 245 body_id 0 nv 4 vert_ids 8 26 73 27 locked 0
+veid 246 body_id 0 nv 4 vert_ids 8 73 26 71 locked 0
+veid 247 body_id 0 nv 4 vert_ids 45 29 77 32 locked 0
+veid 248 body_id 0 nv 4 vert_ids 29 67 77 32 locked 0
+veid 249 body_id 0 nv 4 vert_ids 47 45 90 89 locked 0
+veid 250 body_id 0 nv 4 vert_ids 77 89 84 90 locked 0
+veid 251 body_id 0 nv 4 vert_ids 77 45 89 90 locked 0
+veid 252 body_id 0 nv 4 vert_ids 67 78 65 66 locked 0
+veid 253 body_id 0 nv 4 vert_ids 22 25 52 66 locked 0
+veid 254 body_id 0 nv 4 vert_ids 52 51 22 66 locked 0
+veid 255 body_id 0 nv 4 vert_ids 21 22 51 66 locked 0
+veid 256 body_id 0 nv 4 vert_ids 51 49 21 66 locked 0
+veid 257 body_id 0 nv 4 vert_ids 33 21 49 66 locked 0
+veid 258 body_id 0 nv 4 vert_ids 90 78 83 77 locked 0
+veid 259 body_id 0 nv 4 vert_ids 90 45 29 77 locked 0
+veid 260 body_id 0 nv 4 vert_ids 90 47 29 45 locked 0
+veid 261 body_id 0 nv 4 vert_ids 29 90 33 47 locked 0
+veid 262 body_id 0 nv 4 vert_ids 29 33 90 66 locked 0
+veid 263 body_id 0 nv 4 vert_ids 33 90 49 47 locked 0
+veid 264 body_id 0 nv 4 vert_ids 33 49 90 66 locked 0
+veid 265 body_id 0 nv 4 vert_ids 34 35 44 73 locked 0
+veid 266 body_id 0 nv 4 vert_ids 44 46 34 73 locked 0
+veid 267 body_id 0 nv 4 vert_ids 35 36 37 73 locked 0
+veid 268 body_id 0 nv 4 vert_ids 37 44 35 73 locked 0
+veid 269 body_id 0 nv 4 vert_ids 72 71 74 73 locked 0
+veid 270 body_id 0 nv 4 vert_ids 74 75 72 73 locked 0
+veid 271 body_id 0 nv 4 vert_ids 26 27 50 73 locked 0
+veid 272 body_id 0 nv 4 vert_ids 27 28 48 73 locked 0
+veid 273 body_id 0 nv 4 vert_ids 48 50 27 73 locked 0
+veid 274 body_id 0 nv 4 vert_ids 28 34 46 73 locked 0
+veid 275 body_id 0 nv 4 vert_ids 46 48 28 73 locked 0
+veid 276 body_id 0 nv 4 vert_ids 36 72 75 73 locked 0
+veid 277 body_id 0 nv 4 vert_ids 2 58 82 55 locked 0
+veid 278 body_id 0 nv 4 vert_ids 45 87 46 44 locked 0
+veid 279 body_id 0 nv 4 vert_ids 87 45 43 44 locked 0
+veid 280 body_id 0 nv 4 vert_ids 87 43 37 44 locked 0
+veid 281 body_id 0 nv 4 vert_ids 51 66 90 49 locked 0
+veid 282 body_id 0 nv 4 vert_ids 52 66 90 51 locked 0
+veid 283 body_id 0 nv 4 vert_ids 4 64 79 1 locked 0
+veid 284 body_id 0 nv 4 vert_ids 62 1 79 64 locked 0
+veid 285 body_id 0 nv 4 vert_ids 1 62 61 64 locked 0
+veid 286 body_id 0 nv 4 vert_ids 17 73 1 20 locked 0
+veid 287 body_id 0 nv 4 vert_ids 73 61 1 20 locked 0
+veid 288 body_id 0 nv 4 vert_ids 73 1 61 64 locked 0
+veid 289 body_id 0 nv 4 vert_ids 1 16 73 17 locked 0
+veid 290 body_id 0 nv 4 vert_ids 73 4 11 16 locked 0
+veid 291 body_id 0 nv 4 vert_ids 73 1 4 16 locked 0
+veid 292 body_id 0 nv 4 vert_ids 73 4 1 64 locked 0
+veid 293 body_id 0 nv 4 vert_ids 73 4 9 11 locked 0
+veid 294 body_id 0 nv 4 vert_ids 73 4 8 9 locked 0
+veid 295 body_id 0 nv 4 vert_ids 73 8 4 64 locked 0
+veid 296 body_id 0 nv 4 vert_ids 47 88 48 46 locked 0
+veid 297 body_id 0 nv 4 vert_ids 89 45 46 47 locked 0
+veid 298 body_id 0 nv 4 vert_ids 89 46 45 87 locked 0
+veid 299 body_id 0 nv 4 vert_ids 89 46 88 47 locked 0
+veid 300 body_id 0 nv 4 vert_ids 89 88 46 87 locked 0
+veid 301 body_id 0 nv 4 vert_ids 91 52 51 41 locked 0
+veid 302 body_id 0 nv 4 vert_ids 52 66 78 90 locked 0
+veid 303 body_id 0 nv 4 vert_ids 47 88 89 90 locked 0
+veid 304 body_id 0 nv 4 vert_ids 47 48 88 90 locked 0
+veid 305 body_id 0 nv 4 vert_ids 48 47 49 90 locked 0
+veid 306 body_id 0 nv 4 vert_ids 90 50 49 48 locked 0
+veid 307 body_id 0 nv 4 vert_ids 90 88 50 48 locked 0
+veid 308 body_id 0 nv 4 vert_ids 1 79 80 62 locked 0
+veid 309 body_id 0 nv 4 vert_ids 82 55 3 2 locked 0
+veid 310 body_id 0 nv 4 vert_ids 82 3 55 81 locked 0
+veid 311 body_id 0 nv 4 vert_ids 55 79 81 3 locked 0
+veid 312 body_id 0 nv 4 vert_ids 55 64 79 3 locked 0
+veid 313 body_id 0 nv 4 vert_ids 4 3 79 64 locked 0
+veid 314 body_id 0 nv 4 vert_ids 58 82 80 2 locked 0
+veid 315 body_id 0 nv 4 vert_ids 58 80 62 2 locked 0
+veid 316 body_id 0 nv 4 vert_ids 1 2 62 80 locked 0
+veid 317 body_id 0 nv 4 vert_ids 74 83 85 40 locked 0
+veid 318 body_id 0 nv 4 vert_ids 74 78 83 40 locked 0
+veid 319 body_id 0 nv 4 vert_ids 40 42 78 83 locked 0
+veid 320 body_id 0 nv 4 vert_ids 40 78 71 74 locked 0
+veid 321 body_id 0 nv 4 vert_ids 78 65 40 71 locked 0
+veid 322 body_id 0 nv 4 vert_ids 65 70 40 71 locked 0
+veid 323 body_id 0 nv 4 vert_ids 63 70 8 64 locked 0
+veid 324 body_id 0 nv 4 vert_ids 8 70 4 64 locked 0
+veid 325 body_id 0 nv 4 vert_ids 65 71 63 70 locked 0
+veid 326 body_id 0 nv 4 vert_ids 71 8 63 70 locked 0
+veid 327 body_id 0 nv 4 vert_ids 71 26 8 70 locked 0
+veid 328 body_id 0 nv 4 vert_ids 4 57 64 70 locked 0
+veid 329 body_id 0 nv 4 vert_ids 4 64 57 3 locked 0
+veid 330 body_id 0 nv 4 vert_ids 57 64 55 3 locked 0
+veid 331 body_id 0 nv 4 vert_ids 64 56 57 55 locked 0
+veid 332 body_id 0 nv 4 vert_ids 57 65 63 70 locked 0
+veid 333 body_id 0 nv 4 vert_ids 57 63 65 56 locked 0
+veid 334 body_id 0 nv 4 vert_ids 57 63 64 70 locked 0
+veid 335 body_id 0 nv 4 vert_ids 57 64 63 56 locked 0
+veid 336 body_id 0 nv 4 vert_ids 38 75 36 60 locked 0
+veid 337 body_id 0 nv 4 vert_ids 36 75 72 60 locked 0
+veid 338 body_id 0 nv 4 vert_ids 57 25 6 66 locked 0
+veid 339 body_id 0 nv 4 vert_ids 57 65 78 66 locked 0
+veid 340 body_id 0 nv 4 vert_ids 42 57 40 78 locked 0
+veid 341 body_id 0 nv 4 vert_ids 78 40 65 57 locked 0
+veid 342 body_id 0 nv 4 vert_ids 65 40 70 57 locked 0
+veid 343 body_id 0 nv 4 vert_ids 57 78 25 66 locked 0
+veid 344 body_id 0 nv 4 vert_ids 57 25 78 42 locked 0
+veid 345 body_id 0 nv 4 vert_ids 78 52 25 66 locked 0
+veid 346 body_id 0 nv 4 vert_ids 78 25 52 42 locked 0
+veid 347 body_id 0 nv 4 vert_ids 67 72 53 54 locked 0
+veid 348 body_id 0 nv 4 vert_ids 72 77 67 53 locked 0
+veid 349 body_id 0 nv 4 vert_ids 77 72 75 53 locked 0
+veid 350 body_id 0 nv 4 vert_ids 32 54 67 53 locked 0
+veid 351 body_id 0 nv 4 vert_ids 77 32 67 53 locked 0
+veid 352 body_id 0 nv 4 vert_ids 60 75 72 53 locked 0
+veid 353 body_id 0 nv 4 vert_ids 75 60 38 53 locked 0
+veid 354 body_id 0 nv 4 vert_ids 19 2 54 53 locked 0
+veid 355 body_id 0 nv 4 vert_ids 54 32 19 53 locked 0
+veid 356 body_id 0 nv 4 vert_ids 32 39 77 43 locked 0
+veid 357 body_id 0 nv 4 vert_ids 32 77 39 53 locked 0
+veid 358 body_id 0 nv 4 vert_ids 53 72 61 54 locked 0
+veid 359 body_id 0 nv 4 vert_ids 53 61 72 60 locked 0
+veid 360 body_id 0 nv 4 vert_ids 53 61 2 54 locked 0
+veid 361 body_id 0 nv 4 vert_ids 53 2 61 60 locked 0
+veid 362 body_id 0 nv 4 vert_ids 66 77 78 90 locked 0
+veid 363 body_id 0 nv 4 vert_ids 66 78 77 67 locked 0
+veid 364 body_id 0 nv 4 vert_ids 66 29 77 90 locked 0
+veid 365 body_id 0 nv 4 vert_ids 66 77 29 67 locked 0
+veid 366 body_id 0 nv 4 vert_ids 87 89 43 45 locked 0
+veid 367 body_id 0 nv 4 vert_ids 89 77 43 45 locked 0
+veid 368 body_id 0 nv 4 vert_ids 39 37 87 43 locked 0
+veid 369 body_id 0 nv 4 vert_ids 77 89 39 84 locked 0
+veid 370 body_id 0 nv 4 vert_ids 77 39 89 43 locked 0
+veid 371 body_id 0 nv 4 vert_ids 39 89 87 84 locked 0
+veid 372 body_id 0 nv 4 vert_ids 39 87 89 43 locked 0
+veid 373 body_id 0 nv 4 vert_ids 44 73 87 46 locked 0
+veid 374 body_id 0 nv 4 vert_ids 87 37 73 44 locked 0
+veid 375 body_id 0 nv 4 vert_ids 50 88 73 48 locked 0
+veid 376 body_id 0 nv 4 vert_ids 48 73 46 88 locked 0
+veid 377 body_id 0 nv 4 vert_ids 46 73 87 88 locked 0
+veid 378 body_id 0 nv 4 vert_ids 74 86 88 85 locked 0
+veid 379 body_id 0 nv 4 vert_ids 88 73 41 50 locked 0
+veid 380 body_id 0 nv 4 vert_ids 73 26 41 50 locked 0
+veid 381 body_id 0 nv 4 vert_ids 73 41 26 71 locked 0
+veid 382 body_id 0 nv 4 vert_ids 73 41 74 88 locked 0
+veid 383 body_id 0 nv 4 vert_ids 73 74 41 71 locked 0
+veid 384 body_id 0 nv 4 vert_ids 52 89 51 90 locked 0
+veid 385 body_id 0 nv 4 vert_ids 52 51 89 91 locked 0
+veid 386 body_id 0 nv 4 vert_ids 89 90 88 91 locked 0
+veid 387 body_id 0 nv 4 vert_ids 91 41 42 52 locked 0
+veid 388 body_id 0 nv 4 vert_ids 91 42 89 52 locked 0
+veid 389 body_id 0 nv 4 vert_ids 91 89 42 83 locked 0
+veid 390 body_id 0 nv 4 vert_ids 42 78 89 52 locked 0
+veid 391 body_id 0 nv 4 vert_ids 42 89 78 83 locked 0
+veid 392 body_id 0 nv 4 vert_ids 78 90 89 52 locked 0
+veid 393 body_id 0 nv 4 vert_ids 78 89 90 83 locked 0
+veid 394 body_id 0 nv 4 vert_ids 91 90 51 89 locked 0
+veid 395 body_id 0 nv 4 vert_ids 51 90 50 49 locked 0
+veid 396 body_id 0 nv 4 vert_ids 83 88 91 89 locked 0
+veid 397 body_id 0 nv 4 vert_ids 90 41 51 50 locked 0
+veid 398 body_id 0 nv 4 vert_ids 90 51 41 91 locked 0
+veid 399 body_id 0 nv 4 vert_ids 90 88 41 50 locked 0
+veid 400 body_id 0 nv 4 vert_ids 90 41 88 91 locked 0
+veid 401 body_id 0 nv 4 vert_ids 83 40 88 85 locked 0
+veid 402 body_id 0 nv 4 vert_ids 40 88 74 41 locked 0
+veid 403 body_id 0 nv 4 vert_ids 40 74 88 85 locked 0
+veid 404 body_id 0 nv 4 vert_ids 88 42 91 41 locked 0
+veid 405 body_id 0 nv 4 vert_ids 88 91 42 83 locked 0
+veid 406 body_id 0 nv 4 vert_ids 88 40 42 41 locked 0
+veid 407 body_id 0 nv 4 vert_ids 88 42 40 83 locked 0
+veid 408 body_id 0 nv 4 vert_ids 38 87 75 86 locked 0
+veid 409 body_id 0 nv 4 vert_ids 87 37 39 38 locked 0
+veid 410 body_id 0 nv 4 vert_ids 87 37 38 75 locked 0
+veid 411 body_id 0 nv 4 vert_ids 73 37 87 75 locked 0
+veid 412 body_id 0 nv 4 vert_ids 37 75 36 38 locked 0
+veid 413 body_id 0 nv 4 vert_ids 37 36 75 73 locked 0
+veid 414 body_id 0 nv 4 vert_ids 86 75 88 87 locked 0
+veid 415 body_id 0 nv 4 vert_ids 86 88 75 74 locked 0
+veid 416 body_id 0 nv 4 vert_ids 75 73 88 87 locked 0
+veid 417 body_id 0 nv 4 vert_ids 75 88 73 74 locked 0
+veid 418 body_id 0 nv 4 vert_ids 75 86 84 38 locked 0
+veid 419 body_id 0 nv 4 vert_ids 75 84 77 38 locked 0
+veid 420 body_id 0 nv 4 vert_ids 38 77 39 84 locked 0
+veid 421 body_id 0 nv 4 vert_ids 53 38 75 77 locked 0
+veid 422 body_id 0 nv 4 vert_ids 39 38 53 77 locked 0
+veid 423 body_id 0 nv 4 vert_ids 84 86 87 38 locked 0
+veid 424 body_id 0 nv 4 vert_ids 38 39 87 84 locked 0
+veid 425 body_id 0 nv 4 vert_ids 4 79 3 1 locked 0
+veid 426 body_id 0 nv 4 vert_ids 79 3 82 81 locked 0
+veid 427 body_id 0 nv 4 vert_ids 80 3 82 79 locked 0
+veid 428 body_id 0 nv 4 vert_ids 80 82 3 2 locked 0
+veid 429 body_id 0 nv 4 vert_ids 80 1 3 79 locked 0
+veid 430 body_id 0 nv 4 vert_ids 80 3 1 2 locked 0
+begin_eff_vol_ratio 
+end_eff_vol_ratio 
+end_vol_element_data 
+BeginBodyPairCommonArea 
+NBodyPairsInContact 0 
+EndBodyPairCommonArea 
+BeginTrueMidPts 
+NumCurvedPts 0 
+NumIncompletePull 0 
+EndTrueMidPts 
+begin_point_pair_map 
+n_matched_tri 0 
+end_point_pair_map 
+BeginExplicityPreservedEdges 
+ExpPresEdgeEndIds 0 
+EndExplicityPreservedEdges 
+BeginCurvilinearEnabledFacets 
+NumCurvilinearEnabledFacets 0 
+CurvilinearEnabledFacets   
+EndCurvilinearEnabledFacets 
+Num_meshedge2modeledges 0
+End_meshedge2modeledges
+end_mesh_data 
